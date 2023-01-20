@@ -1,0 +1,16 @@
+11.1 The assignment can be found here: https://www.py4e.com/tools/python-data/?PHPSESSID=916d6287b16beae9cb4c11c699667344
+
+Solution:
+
+import re # imports the regular expression library
+hand=open('regex_sum_42.txt')
+numlist=[]
+
+for line in hand:
+    line=line.rstrip()
+    integers=re.findall('([0-9]+)',line)
+
+    for number in integers:
+        numlist.append(int(number))
+
+print(sum(numlist))
