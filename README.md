@@ -1,5 +1,5 @@
 # Python-for-Everybody-
-Assigment solutions for Python for Everybody course on Coursera.
+Assignment solutions for Python for Everybody course on Coursera.
 
 
 Welcome to my Python coding journey! Join me as I navigate the exciting world of programming, solving problems and creating fun projects along the way. 
